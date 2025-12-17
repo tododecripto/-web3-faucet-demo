@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Hardhat artifacts
+cache/
+artifacts/
+typechain-types/
+
+# Configuration
+.env
+.env.local
+
+# Test coverage
+coverage/
+coverage.json
+
+# nyc test coverage
+.nyc_output/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+.vscode/
+
+# Editor specific
+*.swp
+.idea/
+
+# Hardhat-specific files
+*.js
+!hardhat.config.js
+!scripts/
+!test/
+!contracts/
