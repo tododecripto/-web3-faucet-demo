@@ -1,0 +1,6 @@
+/* Archivo CSS limpio para dejar que el estilo Matrix controle todo */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
