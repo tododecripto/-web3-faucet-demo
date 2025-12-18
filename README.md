@@ -1,68 +1,51 @@
-# 🚰 My Web3 Faucet & ERC-20 Token
+# 🚰 My DeFi Ecosystem: Token, Faucet, Vendor & Staking
 
-¡Bienvenido al proyecto **My Token Faucet**! Este es un ecosistema Web3 completo que incluye un Smart Contract ERC-20, una Faucet para distribución y una dApp con estilo Matrix para interactuar en la blockchain.
+¡Bienvenido al **My DeFi Ecosystem**! Lo que comenzó como una simple Faucet ha evolucionado hasta convertirse en un centro financiero Web3 completo.
 
-Desplegado y funcionando en la red de prueba **Base Sepolia**.
+Desplegado en la red de prueba **Base Sepolia**.
 
-![Matrix Style](https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif)
+## 🚀 Módulos del Ecosistema
 
-## 🚀 Características
+*   **🪙 MyToken (`MTK`):** Token estándar ERC-20 (OpenZeppelin) que sirve como motor del ecosistema.
+*   **💧 Faucet:** Distribución gratuita de 10 MTK cada 24 horas para nuevos usuarios.
+*   **🏪 Vendor (Tiendita):** Venta automatizada de tokens. Intercambia ETH por MTK al instante.
+*   **🏦 Staking Bank:** Protocolo de rendimiento. Bloquea tus MTK y gana recompensas en tiempo real (Yield Farming).
 
-*   **🪙 ERC-20 Token (`MTK`):** Un token estándar creado con OpenZeppelin.
-*   **💧 Faucet Contract:** Un contrato inteligente que permite a los usuarios reclamar 10 MTK cada 24 horas.
-*   **🖥️ Matrix dApp:** Una interfaz web React moderna con estilo terminal hacker, conectada a Base Sepolia mediante **Wagmi** y **RainbowKit**.
-*   **⛓️ Base Sepolia:** Desplegado en una red L2 real de Ethereum.
+## 🖥️ dApp Interface (v3.0)
 
-## 🛠️ Tecnologías Usadas
+Una interfaz de usuario de alta gama diseñada con:
+*   **Matrix Glass Theme:** Estética Cyberpunk con efectos de cristal esmerilado.
+*   **Real-Time Data:** Contadores de recompensas que se actualizan en vivo.
+*   **Wallet Integration:** Conexión segura mediante RainbowKit y Wagmi.
 
-*   **Solidity:** Lenguaje de los Smart Contracts.
-*   **Hardhat:** Entorno de desarrollo para compilar, probar y desplegar.
-*   **React + Vite:** Frontend ultrarrápido.
-*   **RainbowKit + Wagmi:** Conexión de billeteras (Wallet Connect).
-*   **TypeScript:** Tipado estático para un código robusto.
-*   **UnoCSS:** Estilos atómicos para el diseño Matrix.
+## 🛠️ Stack Tecnológico
 
-## 📦 Instalación y Uso
+*   **Backend:** Solidity, Hardhat, Ethers.js.
+*   **Frontend:** React, Vite, Tailwind CSS / UnoCSS.
+*   **Infraestructura:** Base Sepolia Testnet.
 
-Si quieres clonar este proyecto y correrlo en tu máquina local:
+## 📦 Instalación y Uso Local
 
-### 1. Clonar el repositorio
+1. **Clonar y Backend:**
 ```bash
 git clone https://github.com/tododecripto/-web3-faucet-demo.git
-cd -web3-faucet-demo
-```
-
-### 2. Instalar dependencias
-Este proyecto tiene dos partes: el backend (Hardhat) y el frontend (React).
-
-**Raíz (Hardhat):**
-```bash
 npm install
 ```
 
-**Frontend:**
+2. **Frontend:**
 ```bash
 cd frontend
 npm install
-```
-
-### 3. Configuración (.env)
-Crea un archivo `.env` en la raíz del proyecto (basado en el ejemplo) y añade tu clave privada y URL de RPC si planeas desplegar tus propios contratos.
-*Nota: Nunca subas tu clave privada a GitHub.*
-
-### 4. Ejecutar la dApp (Frontend)
-```bash
-cd frontend
 npm run dev
 ```
-Abre `http://localhost:5173` en tu navegador y conecta tu MetaMask a **Base Sepolia**.
 
-## 📜 Comandos Útiles (Hardhat)
+## 📜 Contratos Desplegados (Base Sepolia)
 
-*   `npx hardhat compile`: Compila los contratos.
-*   `npx hardhat test`: Ejecuta los tests unitarios.
-*   `npx hardhat run scripts/deploy.ts --network base_sepolia`: Despliega el token.
+*   **Token:** `0x0EBa516262dC64647608cFCB7Cddb6afA77ab974`
+*   **Faucet:** `0x1B341D6Fd633d3046D93f7eF49DbCD2EBD894E7D`
+*   **Vendor:** `0xceF16FA8CAAc0224ae5858855f30043C8F1D32fC`
+*   **Staking:** `0xF01B08a1B8d1c60f47A21cbA9b55A282736Ee518`
 
 ---
 
-Desarrollado con 💻 y ☕ por **El Profesor Cripto**.
+Desarrollado con 💻 y 🔥 por **El Profesor Cripto**.
